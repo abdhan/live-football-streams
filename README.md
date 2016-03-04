@@ -8,3 +8,6 @@ RE
 FLASK for webapp
 
 To Run: Run app.py like any other Flask webapp.
+
+TODO:
+Include more sports maybe.
