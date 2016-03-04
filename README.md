@@ -4,7 +4,9 @@ I have a live version running on http://abdhan.pythonanywhere.com Just enter the
 
 REQUIRES:
 PRAW to scrape links
+
 RE
+
 FLASK for webapp
 
 To Run: Run app.py like any other Flask webapp.
