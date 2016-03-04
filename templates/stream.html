@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div id="streams">
+  <h2>Showing streams for {{team}}</h2>
+  <ul>
+  {% for m in {{links}} %}
+    <li>{{ m }}</li>
+  {% endfor %}
+
+  </ul>
+
+</div>
+
+
+{% endblock %}
