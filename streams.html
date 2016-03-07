@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<p><font size="6">Showing streams for<b> {{team}}</b></font></p>
+<div class="streams">
+  <ul>
+    {% for link in links %}
+    <div class="view">
+    <li><a href={{link}}>{{ link }}</a></li>
+    </div>
+    {% endfor %}
+    <FORM><INPUT Type="button" VALUE="Back" onClick="history.go(-1);return true;"></FORM>
+    <p>* For more streams look just before the match starts *</p>
+
+  </ul>
+
+</div>
+
+
+{% endblock %}

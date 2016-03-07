@@ -10,11 +10,9 @@ def index():
 def viewstreams():
     team = request.form['team']
     l = stream(team)
-    links = []
-    if l not in links:
-        links.append(l)
-        print (links)
-        return render_template("streams.html", team = team, links = links)
+    # links = []
+    print (l)
+    return render_template("streams.html", team = team, links = l)
 
 
 
